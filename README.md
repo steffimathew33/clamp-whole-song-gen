@@ -1,5 +1,5 @@
 # clamp-whole-song-gen
-## clone these two repositories:
+## preparing your environment:
 1. clone the current repo:
    ```bash
    git clone https://github.com/steffimathew33/clamp-whole-song-gen.git
