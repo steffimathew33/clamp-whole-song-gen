@@ -41,7 +41,7 @@ pipeline: midi of whole song --> abc of whole song --> abc of melody --> melody 
    python extract_melodies.py
    ```
    
-8. filter out unnecessary info from each aligned_demo_melody.abc file, and generate an embedding (melody_embedding.pt) for the melody, based on the aligned_demo_melody.abc for each song
+8. filter out unnecessary info from each aligned_demo_melody.abc file, and generate an embedding called melody_embedding.pt for the melody, based on the aligned_demo_melody.abc for each song
 
    ```bash
    python embed_abcs.py
