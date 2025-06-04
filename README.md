@@ -15,8 +15,6 @@ pipeline: midi of whole song --> abc of whole song --> abc of melody --> melody 
 
 **note: you will most likely need to alter the file paths found within these scripts (to access the files within whole-song-gen/data/matched_pop909_acc)**
 
-<pre> ``` project-root/ ├── data/ │ ├── raw/ │ └── processed/ ├── src/ │ ├── main.py │ └── utils.py └── README.md ``` </pre>
-
 3. extract all of the POP-909 midi files and put into a folder (midi files are found under the folders 001-909 inside matched_pop909_acc)
 
    ```bash
