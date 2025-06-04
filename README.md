@@ -1,6 +1,5 @@
 # clamp-whole-song-gen
-## hi
-1. clone this repo
+## clone this repo
 
    ```bash
    git clone https://github.com/steffimathew33/clamp-whole-song-gen.git
