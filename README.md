@@ -11,7 +11,7 @@
    ```
 
 ## Prepping the midi files (midi --> abc notation --> melody --> embeddings):
-**note: you will most likely need to alter the file paths found within these scripts (to access the files within matched_pop909_acc)**
+**note: you will most likely need to alter the file paths found within these scripts (to access the files within whole-song-gen/data/matched_pop909_acc)**
 
 3. extract all of the POP-909 midi files and put into a folder (midi files are found under the folders 001-909 inside matched_pop909_acc)
 
