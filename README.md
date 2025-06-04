@@ -2,9 +2,8 @@
 
 1. clone this repo
    
-   `
+   ```bash
    git clone https://github.com/steffimathew33/clamp-whole-song-gen.git
-   `
    
 3. clone the whole-song-gen git repo (for the diffusion model that generates pop songs). (training data: POP-909)
    git clone https://github.com/ZZWaang/whole-song-gen
