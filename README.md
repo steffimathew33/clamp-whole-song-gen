@@ -9,12 +9,12 @@
 
    ```bash
    git clone https://github.com/ZZWaang/whole-song-gen
-3. collect all midi files in a folder (found under matched_pop909_acc)
+3. collect all midi files in a folder (midi files are found under the folders 001-909 inside matched_pop909_acc)
 
    ```bash
    python extract_midis.py
 4. locally run [MuseScore 3’s Batch Convert Plugin](https://musescore.org/en/project/batch-convert) to convert the midi files to mxl files.
-5. create an empty folder called pop909_abcs to store the pop909 abc files. then using [MuseScore’s ABC import plugin](https://musescore.org/en/project/abc-importexport) (xml2abc.py), locally convert the mxls to abc notation.
+5. create an empty folder called pop909_abcs to store the pop909 abc files. then using [MuseScore’s ABC Import Plugin](https://musescore.org/en/project/abc-importexport) (xml2abc.py), locally convert the mxls to abc notation.
 
    ```bash
    python pop909_xml2abc.py
@@ -30,3 +30,5 @@
 
    ```bash
    python embed_abcs.py
+
+note: you will most likely need to alter the file paths found within these scripts (to access the files within matched_pop909_acc)
