@@ -1,10 +1,10 @@
 # clamp-whole-song-gen
-## clone this repo
+## clone these 2 repositories:
 
    ```bash
    git clone https://github.com/steffimathew33/clamp-whole-song-gen.git
    ```
-## clone the whole-song-gen git repo (for the diffusion model that generates pop songs). (training data: POP-909)
+clone the whole-song-gen git repo (for the diffusion model that generates pop songs). (training data: POP-909)
 
    ```bash
    git clone https://github.com/ZZWaang/whole-song-gen
