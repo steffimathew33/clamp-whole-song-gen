@@ -11,7 +11,7 @@
    ```
 
 ## prepping the midi files:
-pipeline: midi --> whole song's abc --> melody abc --> melody embeddings
+pipeline: midi of whole song --> abc of whole song --> abc of melody --> melody embedding
 
 **note: you will most likely need to alter the file paths found within these scripts (to access the files within whole-song-gen/data/matched_pop909_acc)**
 
